@@ -1,36 +1,10 @@
-#include <wpframework.h>
-#include <imgui.h>
-#include <imgui_impl_glfw.h>
-#include <imgui_impl_opengl3.h>
-#include <stdio.h>
-#include <GL/glew.h>
-#include <GLFW/glfw3.h>
+#include "AllHeader.h"
+#include "main_ui.h"
 
 using namespace ImGui;
 
 // Window dimensions
 const GLint WIDTH = 800, HEIGHT = 600;
-
-void makew()
-{
-    ImGui_ImplOpenGL3_NewFrame();
-    ImGui_ImplGlfw_NewFrame();
-    ImGui::NewFrame();
-
-	if (ImGui::Begin("Test Window 1"))
-	{
-		ImGui::Text("Hello World");
-	} ImGui::End();
-
-	ImGui::SetNextWindowSize(ImVec2(200, 100), ImGuiCond_FirstUseEver);
-    if (ImGui::Begin("Test Window 2", NULL, ImGuiWindowFlags_NoCollapse | ImGuiWindowFlags_NoResize))
-    {
-        ImGui::Text("Hello World");
-    } ImGui::End();
-
-    ImGui::Render();
-    ImGui_ImplOpenGL3_RenderDrawData(ImGui::GetDrawData());
-}
 
 int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, _In_ LPSTR lpCmdLine, _In_ int nCmdShow)
 {

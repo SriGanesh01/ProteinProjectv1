@@ -151,10 +151,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="commandline.h" />
+    <ClInclude Include="editor_group.h" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="AllHeader.h" />
+    <ClInclude Include="activity_bar.h" />
+    <ClInclude Include="main_ui.h" />
     <ClInclude Include="ProteinProjectv1.h" />
     <ClInclude Include="Resource.h" />
+    <ClInclude Include="status_bar.h" />
     <ClInclude Include="targetver.h" />
+    <ClInclude Include="toolkit.h" />
+    <ClInclude Include="visualizer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\GLneeds\Include\imguicpp\imgui.cpp" />
@@ -164,7 +172,14 @@
     <ClCompile Include="..\GLneeds\Include\imguicpp\imgui_impl_opengl3.cpp" />
     <ClCompile Include="..\GLneeds\Include\imguicpp\imgui_tables.cpp" />
     <ClCompile Include="..\GLneeds\Include\imguicpp\imgui_widgets.cpp" />
+    <ClCompile Include="commandline.cpp" />
+    <ClCompile Include="editor_group.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="main_ui.cpp" />
+    <ClCompile Include="activity_bar.cpp" />
+    <ClCompile Include="status_bar.cpp" />
+    <ClCompile Include="toolkit.cpp" />
+    <ClCompile Include="visualizer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="ProteinProjectv1.rc" />
