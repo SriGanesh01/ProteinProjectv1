@@ -7,7 +7,7 @@
 #include "visualizer.h" // MainVisualizer
 #include "AllHeader.h"
 
-void makew()
+void MainGUI1()
 {
     ImGui_ImplOpenGL3_NewFrame();
     ImGui_ImplGlfw_NewFrame();

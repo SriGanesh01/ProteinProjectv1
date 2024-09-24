@@ -1,4 +1,4 @@
 #pragma once
 
 #include "AllHeader.h"
-void makew(); // Function prototype
+void MainGUI1(); // Function prototype

@@ -56,7 +56,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         // Clear window
         glClearColor(1.0f, 0.2f, 0.2f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
-		makew();
+        MainGUI1();
         glfwSwapBuffers(mainWindow);
     }
 
