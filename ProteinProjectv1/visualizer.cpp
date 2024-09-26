@@ -17,6 +17,10 @@ void MainVisualizer()
             ImGui::Text("Tab 3 content here");
             ImGui::EndTabItem();
         }
+        if (ImGui::BeginTabItem("Tab 4")) {
+            ImGui::Text("Tab 3 content here");
+            ImGui::EndTabItem();
+        }
 
     }ImGui::EndTabBar();
 }
