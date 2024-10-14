@@ -3,7 +3,7 @@
 
 void MainVisualizer()
 {
-    if (ImGui::BeginTabBar("MyTabs"))
+    /*if (ImGui::BeginTabBar("MyTabs"))
     {
         if (ImGui::BeginTabItem("Tab 1")) {
             ImGui::Text("Tab 1 content here");
@@ -22,5 +22,5 @@ void MainVisualizer()
             ImGui::EndTabItem();
         }
 
-    }ImGui::EndTabBar();
+    }ImGui::EndTabBar();*/
 }

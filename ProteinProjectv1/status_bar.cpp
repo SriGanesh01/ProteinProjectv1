@@ -3,9 +3,9 @@
 
 void MainStatusBar()
 {
-    ImGui::SetNextWindowSize(ImVec2(200, 100), ImGuiCond_FirstUseEver);
+    /*ImGui::SetNextWindowSize(ImVec2(200, 100), ImGuiCond_FirstUseEver);
     if (ImGui::Begin("Test Window 2"))
     {
         ImGui::Text("Hello World");
-    } ImGui::End();
+    } ImGui::End();*/
 }
