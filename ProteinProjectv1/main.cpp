@@ -14,6 +14,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         printf("GLFW initialization failed\n");
         return 1;
     }
+
     // Setup GLFW window properties
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
     glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
@@ -56,6 +57,9 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
         // Clear window
         glClearColor(1.0f, 0.2f, 0.2f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT);
+
+		//TODO call the loop of the LineRenderer
+
         MainGUI1();
         glfwSwapBuffers(mainWindow);
     }
