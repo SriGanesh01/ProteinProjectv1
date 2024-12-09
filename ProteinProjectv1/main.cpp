@@ -55,7 +55,7 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
     {
         glfwPollEvents();
         // Clear window
-        glClearColor(0.2f, 0.2f, 0.2f, 0.2f);
+        glClearColor(0.8f, 0.8f, 0.8f, 0.0f);
         glClear(GL_COLOR_BUFFER_BIT);
 
 		//TODO call the loop of the LineRenderer
