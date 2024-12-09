@@ -19,6 +19,9 @@
     <Filter Include="Header Files %28Remaining%29">
       <UniqueIdentifier>{cc85c35a-8aa6-4492-ac7f-2615baeac87b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Assets">
+      <UniqueIdentifier>{7b9d0617-0eaf-4b77-a2d9-e1a6370f7363}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -132,5 +135,10 @@
   </ItemGroup>
   <ItemGroup>
     <CopyFileToFolders Include="glew32.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Coordinates.txt">
+      <Filter>Source Files\Assets</Filter>
+    </Text>
   </ItemGroup>
 </Project>
