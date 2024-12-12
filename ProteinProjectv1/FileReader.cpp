@@ -3,6 +3,7 @@
 #include <vector>
 #include <sstream>
 #include <iomanip>
+#include <cmath> 
 using namespace std;
 
 struct Coordinate {
@@ -18,6 +19,8 @@ int main() {
 
     vector<Coordinate> coordinates;
     string line;
+
+
     while (getline(inputFile, line)) {
         istringstream iss(line);
         Coordinate coord;
@@ -27,6 +30,23 @@ int main() {
     }
 
     inputFile.close();
+
+
+    double maxAbs = 0.0;
+    for (const auto& coord : coordinates) {
+        maxAbs = max(maxAbs, fabs(coord.x));
+        maxAbs = max(maxAbs, fabs(coord.y));
+        maxAbs = max(maxAbs, fabs(coord.z));
+    }
+
+
+    for (auto& coord : coordinates) {
+        coord.x /= maxAbs;
+        coord.y /= maxAbs;
+        coord.z /= maxAbs;
+    }
+
+
     for (size_t i = 0; i < coordinates.size() - 1; ++i) {
         cout << fixed << setprecision(3);
         cout << "(" << coordinates[i].x << ", " << coordinates[i].y << ", " << coordinates[i].z << ") - ";
