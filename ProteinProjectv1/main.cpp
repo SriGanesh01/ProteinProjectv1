@@ -42,13 +42,28 @@ int APIENTRY WinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance,
     ImGui_ImplGlfw_InitForOpenGL(mainWindow, true);
     ImGui_ImplOpenGL3_Init("#version 330");
 
+    // Define the line coordinates
+    double x1 = -0.5, y1 = -0.5, z1 = 0.0; // Start point
+    double x2 = 0.5, y2 = 0.5, z2 = 0.0;  // End point
+
+	double x3 = -0.5, y3 = 0.5, z3 = 0.0; // Start point
+	double x4 = 0.5, y4 = -0.5, z4 = 0.0;  // End point
+
+	double x5 = -0.5, y5 = 0.5, z5 = 0.0; // Start point
+	double x6 = 0.5, y6 = 0.5, z6 = 0.0;  // End point
+
     while (!glfwWindowShouldClose(mainWindow)) {
         glfwPollEvents();
         glClearColor(1.0f, 0.75f, 0.8f, 1.0f);
 
         glClear(GL_COLOR_BUFFER_BIT);
 
-        render();
+        //call render function till the file ends
+        /*render(x1, y1, z1, x2, y2, z2);
+		render(x3, y3, z3, x4, y4, z4);
+		render(x5, y5, z5, x6, y6, z6);*/
+		SelectLines();
+
         MainGUI1();
         glfwSwapBuffers(mainWindow);
     }

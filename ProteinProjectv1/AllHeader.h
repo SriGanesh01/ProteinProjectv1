@@ -13,5 +13,14 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 #include "LineRenderer.h"
+#include "FileReader.h"
+#include <iostream>
+#include <fstream>
+#include <vector>
+#include <sstream>
+#include <iomanip>
+#include <cmath>
+#include <array>
+
 
 
