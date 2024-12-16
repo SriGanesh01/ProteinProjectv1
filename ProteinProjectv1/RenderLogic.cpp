@@ -22,7 +22,7 @@ void SelectLines() {
             ssPrev >> num1Prev >> num2Prev >> num3Prev;
             ssCurr >> num1Curr >> num2Curr >> num3Curr;
 
-			render(num1Prev, num2Prev, num3Prev, num1Curr, num2Curr, num3Curr);
+			renderLine(num1Prev, num2Prev, num3Prev, num1Curr, num2Curr, num3Curr);
 
         }
         prevLine = line;
