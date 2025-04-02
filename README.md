@@ -1,5 +1,7 @@
 # ProteinProjectv1
 
+Note That This Project is being paused for developement in the theory and writing research papers in the same topic of this project
+
 Our Project consists of multiple intricate and interrelated concepts combined to be a single application. 
 
 Overview
