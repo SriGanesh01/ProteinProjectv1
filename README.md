@@ -1,6 +1,6 @@
 # ProteinProjectv1
 
-#### Note That This Project is being paused for development in the theory and writing research papers in the same topic as this project. Development will resume as soon as the theory is set, meanwhile follow https://github.com/SriGanesh01/PRoteinProjectDemoUnityv1 for further development in this. The mentioned repo is being used as a placeholder to write the papers. Once doen with it, it will be re-written in this repo
+#### Note That This Project is being paused for development in the theory and writing research papers in the same topic as this project. Development will resume as soon as the theory is set, meanwhile follow https://github.com/SriGanesh01/PRoteinProjectDemoUnityv1 for further development in this. The mentioned repo is being used as a placeholder to write the papers. Once done with it, it will be re-written in this repo
 
 Our Project consists of multiple intricate and interrelated concepts combined to be a single application. 
 
